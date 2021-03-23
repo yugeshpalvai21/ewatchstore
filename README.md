@@ -1,24 +1,19 @@
-# README
+### Getting Started
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+##### Generating SSH keys on Local Machine
 
-Things you may want to cover:
+```
+ > ssh-keygen
+ > cat ~/.ssh/id_rsa.pub
 
-* Ruby version
+ ###### COPY OUT PUT VALUE
+ ###### PASTE IT IN Github Home > Settings > Add SSH Keys
 
-* System dependencies
+ > git clone <ssh_repo_url>
 
-* Configuration
+ ### IF you Already set Origin to HTTPS and want to change to SSH
 
-* Database creation
+ > git remote set-url origin <ssh_repo_url>
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ > git clone or > git push
+```
